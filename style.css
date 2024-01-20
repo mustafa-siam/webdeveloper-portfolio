@@ -72,3 +72,108 @@ header{background-color:#FFF8F3;
     height: 24px;}
 .profile-pic{width: 584px;
     height: 676px;}  
+/*main shared style*/
+main .about{margin: 100px 200px;
+            background: #FFF8F3;
+            padding: 40px 60px;}
+main .about .about-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;}
+main .about .about-details{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 30px;}
+.about-info-container{display: flex;
+                      gap: 50px;}
+.info-title{
+    text-align: center;
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;}
+.info-details{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;}
+.occupation{margin: 100px 340px;}
+.occupation .occupation-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;}
+.occupation .occupation-details{
+color:#757575;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;}
+.occupation-description-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;}
+.occupation-description-details{
+    color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;}   
+.occupation-description{
+    margin: 30px 150px 100px 150px;
+    display: flex;
+    gap: 25px;
+}
+.about-description{box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+                   padding: 30px;}
+.resume-summary .resume-head{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 40px;}
+.resume-type{color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+.education-title{color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;}
+.college-name{color:#757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;}
+.educatiion-details{color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;}
+.resume-container{margin: 5px 150px;
+                  display: flex;
+                  gap: 70px;}
+.experience-details{color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */}
+.cv{text-align: center;}
