@@ -170,10 +170,35 @@ line-height: 30px;}
 .resume-container{margin: 5px 150px;
                   display: flex;
                   gap: 70px;}
-.experience-details{color: var(--Dark-03, #757575);
+.experience-details{color:  #757575;
     font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 175% */}
-.cv{text-align: center;}
+    line-height: 28px; }
+.cv{text-align: center;
+    margin-bottom: 100px;}
+.connect-title{color:  #181818;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+.connect-details{color: #474747;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;}
+.connect-agent{margin-right:25px;}
+.connetion-medium{display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding:50px 200px 100px 150px;}
+.form-name,.form-email,.form-message{border: 0px;
+    padding: 18px 300px 18px 30px;
+    color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 20px;
+    margin-bottom: 25px;}
